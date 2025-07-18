@@ -33,6 +33,12 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
+  transition: opacity 1s;
+  cursor: pointer;
+}
+
+.form__button:hover{
+  opacity: 70%;
 }
 
 .form__checkbox {
